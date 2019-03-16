@@ -1,0 +1,35 @@
+const user = [
+    {id:'1',
+     email:'mauricium.maurice@yahoo.com',
+     fisrtName:'Maurice',
+     lastName:'Etim',
+     password: 'qwertyuiop',
+    },
+    {id:'2',
+     email:'jonathanwilliams@gmail.com',
+     fisrtName:'Jonathan',
+     lastName:'Williams',
+     password: 'qwertyuiop',
+    },
+    {id:'3',
+     email:'hnobi@yahoo.com',
+     fisrtName:'Hammed',
+     lastName:'Noibi',
+     password: 'qwertyuiop',
+    },
+    {id:'4',
+     email:'renaldokolocha@gmail.com',
+     fisrtName:'Renald',
+     lastName:'Okolocha',
+     password: 'qwertyuiop',
+    },
+    {id:'5',
+     email:'yuji@yahoo.com',
+     fisrtName:'Biodun',
+     lastName:'Sadiq',
+     password: 'qwertyuiop',
+    }
+]
+
+
+export default user;

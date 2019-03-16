@@ -1,0 +1,43 @@
+{
+  "name": "epic-mail",
+  "version": "1.0.0",
+  "description": "Epic Mailer",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "nodemon": "^1.18.7",
+    "nyc": "^13.1.0",
+    "pg": "^7.7.1",
+    "siiimple-toast": "^3.1.6",
+    "supertest": "^3.3.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start:Mail": "nodemon --watch server --exec babel-node -- server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morsetim/Epic-Mail.git"
+  },
+  "keywords": [
+    "xoxo"
+  ],
+  "author": "Maurice Etim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morsetim/Epic-Mail/issues"
+  },
+  "homepage": "https://github.com/Morsetim/Epic-Mail#readme"
+}
